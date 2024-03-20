@@ -57,7 +57,7 @@
 /* Start Navbar */
 
 header {
-
+    padding-top: 0.5em;
 }
 
 header nav {
@@ -133,11 +133,20 @@ header nav .links ul li:first-child:hover a {
 
 /* Inicio do conteudo do Header */
 
+
+#header {
+    height: 100%; /* Ocupa toda a altura da tela */
+    width: 100%; /* Ocupa toda a largura da tela */
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
 header .content {
     display: flex;
     align-items: center;
     flex-direction: column;
-    padding-top: 80px;
     text-align: center;
 }
 
@@ -160,6 +169,29 @@ header .content img:last-of-type {
     margin-top: 30px;
 }
 
+.programmer {
+    max-width: 750px;
+    user-select: none; 
+    -webkit-user-drag: none;
+}
+
+.pulseIcon {
+    animation: pulse 1s infinite alternate;
+    color: #F55139;
+  }
+  
+  @keyframes pulse {
+    0% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.1);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+
 @media(max-width: 900px) {
     header .content h2 {
         font-size: 30px;
@@ -181,6 +213,9 @@ header .content img:last-of-type {
 }
 
 @media(max-width: 450px) {
+    #header {
+        margin-top: 10%;
+    }
     header .content h2 {
         font-size: 22px;
     }
@@ -192,7 +227,32 @@ header .content img:last-of-type {
     }
 }
 
+.view_link {
+    margin-left: 0.5em;
+    color: var(--second-color);
+    border: 2px solid var(--second-color);
+    padding: 8px 12px;
+    border-radius: 25px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    -ms-border-radius: 25px;
+    -o-border-radius: 25px;
+    transition: .2s linear;
+    -webkit-transition: .2s linear;
+    -moz-transition: .2s linear;
+    -ms-transition: .2s linear;
+    -o-transition: .2s linear;
+}
 
+.view_link:hover {
+    background-color: #F55139;
+    border-color: transparent;
+    color: #fff;
+}
+
+.animatedPhrase {
+    font-weight: bolder;
+}
 /* Fim do conteudo do Header */
 
 
@@ -655,6 +715,32 @@ footer .copyrights .see__more {
     border-color: #fff;
     padding: 5px 8px;
     color: #fff;
+}
+
+.back__to__top {
+    display: inline-block;
+    text-decoration: none;
+    color: black; /* Cor do texto */
+}
+
+.container2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centraliza os itens horizontalmente */
+}
+
+.arrow {
+    color: var(--main-color); /* Cor da seta */
+    font-size: 24px; /* Tamanho da seta */
+    padding: 0.5em;
+    border-radius: 50%;
+    background-color: var(--second-color);
+}
+
+.backToTop {
+    margin-top: 5px; /* Espaçamento entre a seta e o texto */
+    color: var(--second-color);
+    font-weight: bold;
 }
 
 

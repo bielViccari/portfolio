@@ -5,7 +5,7 @@ import supergestao from '../assets/images/projects/supergestao.png';
 export const Works = () => {
     return (
         <>
-            <div className="work">
+            <div id='projects' className="work">
                 <div className="container">
                     <div className="title">
                         <h2>Projetos</h2>
