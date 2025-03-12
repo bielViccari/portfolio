@@ -427,7 +427,7 @@ header .content img:last-of-type {
     width: 60px; 
     height: 60px; 
     border-radius: 50%;
-    background-color: #b5e5eeb7;
+    background-color: #f0bcf5b7;
     margin-right: 10px; 
   }
   .iconContainerYellow {
@@ -505,7 +505,7 @@ header .content img:last-of-type {
 .work .projects {
     display: grid;
     gap: 10px;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 1fr);
     margin-top: 20px;
 }
 

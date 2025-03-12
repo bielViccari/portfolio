@@ -9,7 +9,7 @@ export const AnimatedPhraseBanner = () => {
             {' '}
             <span style={{ color: '#F55139', fontWeight: 'bold' }}>
             <Typewriter
-                words={['<JAVA DEVELOPER />', '<PHP DEVELOPER/>', '<REACT.JS DEVELOPER/>']}
+                words={['<PHP DEVELOPER />', '<NODE DEVELOPER/>', '<REACT.JS DEVELOPER/>']}
                 loop={''}
                 cursor
                 typeSpeed={70}

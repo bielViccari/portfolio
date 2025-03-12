@@ -2,7 +2,7 @@ import { CurriculumButton } from './CurriculumButton.jsx';
 import { AnimatedPhraseBanner } from './AnimatedPhraseBanner.jsx';
 import programmer from '../assets/programmer.jpg';
 import { IoIosArrowDown } from "react-icons/io";
-import React, { useState, useEffect } from 'react';
+import { useState, useEffect } from 'react';
 
 export const Introduction = () => {
     
@@ -27,7 +27,7 @@ export const Introduction = () => {
         <div>
             <CurriculumButton text="Baixar Currículo" />
 
-            <a href="https://drive.google.com/file/d/1m4g569w4hJjVYqXyDWJpGnykZ7lxmp8J/view?usp=drive_link" target="_blank"><button className='view_link'>Visualizar currículo</button></a>
+            <a href="https://drive.google.com/file/d/1dZ7G6pkuq5TG0gK2cuAluhyFHIU4o3Dk/view?usp=sharing" target="_blank"><button className='view_link'>Visualizar currículo</button></a>
         </div>
         <img src={programmer} className='programmer' />
 

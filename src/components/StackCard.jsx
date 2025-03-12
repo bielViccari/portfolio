@@ -1,13 +1,10 @@
 import bootstrap from '../assets/images/devIcons/bootstrap-original.svg';
-import docker from '../assets/images/devIcons/docker-original.svg';
 import hibernate from '../assets/images/devIcons/hibernate-original.svg';
 import intellij from '../assets/images/devIcons/intellij-original.svg';
 import java from '../assets/images/devIcons/java-original.svg';
 import tailwind from '../assets/images/devIcons/tailwindcss-original.svg';
 import laravel from '../assets/images/devIcons/laravel-original.svg';
-import postgres from '../assets/images/devIcons/postgresql-original.svg';
 import vscode from '../assets/images/devIcons/vscode-original.svg';
-import vue from '../assets/images/devIcons/vuejs-original.svg';
 import react from '../assets/images/devIcons/react-original.svg';
 import spring from '../assets/images/devIcons/spring-original.svg';
 import php from '../assets/images/devIcons/php-original.svg';
@@ -18,7 +15,11 @@ import javascript from '../assets/images/devIcons/javascript-original.svg';
 import backend1 from '../assets/images/devIcons/backend2.svg'
 import frontend from '../assets/images/devIcons/frontend.svg'
 import tools from '../assets/images/devIcons/tools.svg'
-
+import node from '../assets/images/devIcons/nodejs-original-wordmark.svg'
+import express from '../assets/images/devIcons/express-original-wordmark.svg'
+import mongodb from '../assets/images/devIcons/mongodb-original-wordmark.svg'
+import visualStudio from '../assets/images/devIcons/visualstudio-original.svg'
+import livewire from '../assets/images/devIcons/livewire-original.svg'
 
 export const StackCard = () => {
     return (
@@ -76,6 +77,9 @@ export const StackCard = () => {
                                     <div className="iconContainerBlue">
                                         <img src={react} alt="Imagem 1" />
                                     </div>
+                                    <div className="iconContainerPurple">
+                                        <img src={livewire} alt="Imagem 1" />
+                                    </div>
                                 </div>
                             </p>
                         </div>
@@ -89,24 +93,21 @@ export const StackCard = () => {
                                 Linguagens:
                                 <div className="iconsBox">
                                 <div className="iconContainerBlue">
-                                        <img src={php} alt="Imagem 1" />
+                                        <img src={php} alt="PHP" />
                                     </div>
-                                    <div className="iconContainerBlue">
-                                        <img src={java} alt="Imagem 1" />
+                                    <div className="iconContainerGreen">
+                                        <img src={node} alt="NodeJs" />
                                     </div>
                                 </div>
                             </p>
                             <p>
                                 Frameworks e Bibliotecas:
                                 <div className="iconsBox">
-                                <div className="iconContainerGreen">
-                                        <img src={spring} alt="Imagem 1" />
-                                    </div>
                                     <div className="iconContainerRed">
                                         <img src={laravel} alt="Imagem 1" />
                                     </div>
                                     <div className="iconContainerGreen">
-                                        <img src={hibernate} alt="Imagem 2" />
+                                        <img src={express} alt="Imagem 2" />
                                     </div>
                                 </div>
                             </p>
@@ -114,8 +115,11 @@ export const StackCard = () => {
                             <p>
                                 Banco de dados:
                                 <div className="iconsBox">
-                                <div className="iconContainerBlue">
-                                        <img src={mysql} alt="Imagem 1" />
+                                    <div className="iconContainerBlue">
+                                            <img src={mysql} alt="Imagem 1" />
+                                    </div>
+                                    <div className="iconContainerGreen">
+                                            <img src={mongodb} alt="Imagem 1" />
                                     </div>
                                 </div>
                             </p>
@@ -135,13 +139,18 @@ export const StackCard = () => {
                                     <div className="iconContainerBlue">
                                         <img src={vscode} alt="Imagem 1" />
                                     </div>
+                                    <div className="iconContainerPurple">
+                                        <img src={visualStudio} alt="Imagem 1" />
+                                    </div>
                                 </div>
                             </p>
                             <ul>
                                 Ferramentas:
                                 <li>Trello</li>
                                 <li>Miro - UML Diagram</li>
-                                <li>Spring Initialzr</li>
+                                <li>MySQL WorkBench</li>
+                                <li>PostmanApi</li>
+                                <li>MongoDB Atlas</li>
                             </ul>
                         </div>
                     </div>

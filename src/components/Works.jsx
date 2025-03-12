@@ -1,7 +1,7 @@
 import achadinhos from '../assets/images/projects/achadosZZZ.png';
 import tcc from '../assets/images/projects/tcc.png';
 import supergestao from '../assets/images/projects/supergestao.png';
-
+import acai from '../assets/images/projects/acai.png'
 export const Works = () => {
     return (
         <>
@@ -45,6 +45,17 @@ export const Works = () => {
                                     dinheiro gasto pela empresa.<br /> (Projeto em Desenvolvimento).
                                 </p>
                                 <a target='_blank' href="https://github.com/bielViccari/super_gestao">Veja o código do projeto</a>
+                            </div>
+                        </div>
+                        <div className="project">
+                            <img src={acai} alt="project Overview" />
+                            <div className="disc">
+                                <p>
+                                    Projeto desenvolvido para açaiterias, que fazem os pedidos via whatsapp, atrasando e gerando confusões ao fazer e entregar os
+                                    pedidos, este sistema serve como loja virtual onde o cliente seleciona os produtos ou monta um açai, e faz o pedido chegando uma 
+                                    notificação via telegram para a açaiteria com as informações do pedido. <br /> (Projeto em Desenvolvimento).
+                                </p>
+                                <a target='_blank' href="https://rubiacai-oficial-master-migg6f.laravel.cloud/">Veja o site</a>
                             </div>
                         </div>
                     </div>
